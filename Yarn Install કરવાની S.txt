@@ -1,0 +1,81 @@
+✅ Windows માં Yarn Install કરવાની Steps
+🔹 Step 1: Node.js install છે કે નહિ check કરો
+
+Yarn ચલાવવા માટે Node.js જરૂરી છે.
+
+👉 Check command:
+node -v
+
+
+જો output આવે:
+
+v18.x.x
+
+
+➡️ Node.js installed છે ✅
+
+જો નથી તો:
+🔗 https://nodejs.org
+
+➡️ LTS version download & install કરો
+
+🔹 Step 2: npm version check
+npm -v
+
+
+➡️ npm Node.js સાથે auto install થાય છે
+
+🔹 Step 3: Yarn install (Recommended Method – npm)
+👉 Command:
+npm install -g yarn
+
+
+➡️ Yarn globally install થશે
+
+🔹 Step 4: Yarn install થયું કે નહિ check કરો
+yarn --version
+
+Example Output:
+1.22.19
+
+
+➡️ Yarn successfully install થઈ ગયું 🎉
+
+🔹 Step 5: (Optional) Yarn location check
+where yarn
+
+✅ Alternative Method: Chocolatey (Optional)
+
+જો Chocolatey installed હોય:
+
+choco install yarn
+
+⚠️ Common Error & Solution
+❌ Error:
+yarn is not recognized
+
+✅ Fix:
+
+CMD close કરો
+
+CMD ફરી open કરો
+
+yarn --version ફરી run કરો
+
+🧠 Exam One-Line Answer
+
+Windows માં Yarn install કરવા માટે પહેલા Node.js install કરીએ અને પછી npm install -g yarn command ચલાવીએ.
+
+⭐ Viva Ready Short Answer
+
+Yarn = JavaScript package manager
+
+npm દ્વારા globally install થાય છે
+
+yarn --version થી verify થાય છે
+
+જો તમે ઇચ્છો તો હું
+✅ Yarn vs npm difference
+✅ Yarn init & add package commands
+
+પણ સમજાવી દઈશ 😊
